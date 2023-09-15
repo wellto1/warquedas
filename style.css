@@ -1,0 +1,30 @@
+h1{
+    font-family: '8BIT WONDER', sans-serif;
+    font-size: larger;                                           
+}
+
+div.tres {
+    width:1000px;
+    height:800px;
+    border: 10px solid; /* As bordas */
+    border-color: rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) rgb(4, 4, 4); /* cores: topo, direita, inferior, esquerda */
+    display: table; 
+    margin-right: center; 
+    }
+
+#vida{
+    text-align: left;
+    margin-left: 10px;
+}
+
+#placar{ 
+    text-align: right;
+    margin-top: -30px;
+}
+
+#clo{
+    display: flex;
+    position: absolute;
+    left: 24%;
+    margin-top: -30px;
+}
