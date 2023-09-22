@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(143, 105, 0);
+}
 h1{
     font-family: '8BIT WONDER', sans-serif;
     font-size: larger;                                           
@@ -10,16 +13,24 @@ div.tres {
     border-color: rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) rgb(4, 4, 4); /* cores: topo, direita, inferior, esquerda */
     display: table; 
     margin-right: center; 
+    background-color: rgb(255, 217, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     }
 
 #vida{
     text-align: left;
     margin-left: 10px;
 }
-
+co.png{
+   left: 20px;
+}
 #placar{ 
     text-align: right;
     margin-top: -30px;
+    padding-right: 5px;
 }
 
 #clo{
@@ -27,4 +38,8 @@ div.tres {
     position: absolute;
     left: 24%;
     margin-top: -30px;
+}
+#co{
+    width: 3%;
+    padding-left: 5px ;    
 }
