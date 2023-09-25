@@ -10,15 +10,22 @@
     </style>
 </head>
 <body> 
-    <!-- <div class="tres">    -->
-        <img class="img-center" id="ambi" src="ambiante.png" height="100%" width="100%">
-        <h1 id="vida">VIDA <img id="co" src="Co.png"></h1>
-        <h1 id="placar"> 0000000 PLACAR</h1>
-        <p id="clo"></p>
-      
-    </div>
-    <div id="cronometro"></div>
-    
+
+    <header></header>
+    <main>
+        <img class="scenario" id="scenario" src="scenario.png" height="100%" width="100%">
+        <figure class="container-life">
+            <h1 id="text-life">VIDA</h1>
+            <img id="img-life1" src="life.png">
+            <img id="img-life2" src="life.png">
+            <img id="img-life3" src="life.png">
+        </figure>
+        <div class="cronus" id="cronus"></div>
+        <div class="score">       
+            <h1 id="score-text"> PLACAR 0000000</h1>
+        </div> 
+    </main>
+    <footer></footer>   
+    <script src="timer.js"></script> 
 </body>
- <script src="timer.js"></script>
 </html>
